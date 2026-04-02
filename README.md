@@ -58,7 +58,7 @@ The control system runs on multiple concurrent threads:
 - **ADC Server (ISR + Queue)**
   - Manages shared ADC access across threads  
 
-This architecture ensures time-critical control is isolated from lower-priority tasks. :contentReference[oaicite:0]{index=0}
+This architecture ensures time-critical control is isolated from lower-priority tasks. 
 
 ---
 
@@ -137,4 +137,22 @@ Complete analysis, timing data, synchronization behavior, and fault testing resu
 
 ---
 
-## Repository Structure
+## Key Learnings
+- Designing real-time embedded systems using RTOS  
+- Synchronizing ISR and threads safely  
+- Implementing fault-tolerant embedded architectures  
+- Managing shared hardware resources (ADC)  
+- Debugging with logic analyzers and waveform tools  
+
+---
+
+## Future Improvements
+- Advanced PID tuning and adaptive control  
+- FreeRTOS port for cross-platform compatibility  
+- Efficiency and thermal optimization  
+- Hardware PCB implementation  
+
+---
+
+## Author
+**Archit Kulkarni**

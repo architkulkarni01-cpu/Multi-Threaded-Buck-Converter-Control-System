@@ -71,7 +71,7 @@ This architecture ensures time-critical control is isolated from lower-priority 
 
 The system balances:
 - High switching frequency → reduced ripple  
-- Lower control frequency → reduced CPU load :contentReference[oaicite:1]{index=1}
+- Lower control frequency → reduced CPU load 
 
 ---
 
@@ -90,7 +90,7 @@ To maintain deterministic behavior:
 - **State Machine (Alternative Approach)**
   - Deterministic synchronization without RTOS overhead  
 
-This ensures safe interaction between ISR and threads without data corruption. :contentReference[oaicite:2]{index=2}
+This ensures safe interaction between ISR and threads without data corruption.
 
 ---
 
@@ -110,7 +110,7 @@ The system is designed to detect and recover from faults in real time:
 - Thread recreation  
 - System reset via watchdog timer  
 
-The watchdog ensures recovery if the system becomes unresponsive. :contentReference[oaicite:3]{index=3}
+The watchdog ensures recovery if the system becomes unresponsive. 
 
 ---
 
@@ -125,7 +125,7 @@ A critical fault where interrupts are disabled is detected by a monitoring threa
 Without protection → complete system freeze  
 With protection → seamless recovery  
 
-This demonstrates robust fault tolerance in real-time systems. :contentReference[oaicite:4]{index=4}
+This demonstrates robust fault tolerance in real-time systems. 
 
 ---
 

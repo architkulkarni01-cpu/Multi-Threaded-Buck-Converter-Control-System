@@ -19,6 +19,24 @@ Built using RTXv5 RTOS, the system demonstrates advanced concepts including mult
 
 ---
 
+## Hardware
+
+### Buck Converter Architecture
+
+![Buck Converter Architecture](hardware/Buck%20Converter%20Architecture.png)
+
+The power stage consists of a buck converter circuit (MOSFET, diode, inductor, capacitor) driving an LED load with regulated current. Current sensing is achieved via a resistor feedback network.
+
+### Pin Connections
+
+![Pin Connections](hardware/Pin%20Connections.png)
+
+### Working Hardware
+
+![Buck Converter Working Hardware](hardware/Buck%20Converter%20Working%20Hardware.jpeg)
+
+---
+
 ## System Architecture
 
 The system is composed of tightly integrated hardware and software components:
@@ -133,7 +151,7 @@ This demonstrates robust fault tolerance in real-time systems.
 
 Complete analysis, timing data, synchronization behavior, and fault testing results are documented here:
 
-📄 [`results/ESA_Project_Report.pdf`](results/ESA_Project_Report.pdf)
+📄 [`results/Buck_Converter_Report.pdf`](results/Buck_Converter_Report.pdf)
 
 ---
 
